@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+h1{
+    font-size: 25px;
+}
+
+header{
+    height: 60px;
+    border: 1px solid lightgray;
+}
+
+header div{
+    width: 980px;
+    margin:0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+}
+
+header li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+}
+
+header a{
+    text-decoration: none;
+    color: #4B5CAB;
+    font-size: 22px;
+    font-weight: 900;
+}
+header a:visited{
+    color: #4B5CAB;
+
+}
+
+main{
+    margin-top: 20px;
+    padding: 10px;
+    width: 980px;
+    min-height: 71vh ;
+    margin: 20px auto;
+}
+main p{
+    font-size: 20px;
+}
+section h3{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.description{
+    width: 600px;
+    height: 250px;
+    margin: 20px auto;
+    background-color:#4B5CAB;
+    padding: 20px;
+    color: #E5ECFE;
+    border-radius: 10px;
+}
+
+.description,
+.picture{
+    padding: 10px;
+    text-align: center;
+}
+
+#sobre{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.picture img{
+    border-radius: 50%;
+}
+section{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hobbies p{
+    padding: 8px 0px;
+}
+
+section p{
+    margin: 8px 0px;
+}
+
+table{
+    text-align: left;
+    width: 800px;
+    margin-top: 30px;
+}
+thead{
+    border: 1px solid #000000;
+}
+
+th{
+    padding: 5px;
+    font-size: 18px;
+}
+td{
+    padding: 5px;
+    font-size: 16px;
+}
+
+footer{
+    height: 150px;
+    background-color: #4B5CAB;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3{
+    font-size: 30px;
+
+}
+
+
+
